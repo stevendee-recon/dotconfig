@@ -95,6 +95,9 @@ re3() {
 re4() {
   src ${1:-recon4/recon}
 }
+re5() {
+  src ${1:-recon5/recon}
+}
 _src() {
   local paths=(~{,/src})(N)
   _path_files -/ -W "(${(j: :)paths})"
