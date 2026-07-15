@@ -4,6 +4,8 @@
 	gpgsign = true
 [gpg]
 	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed_signers
 [alias]
 	co = checkout
 	dc = diff --cached
