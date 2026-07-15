@@ -77,6 +77,7 @@ src() {
   for d in ~{/src,}; do
     if [[ -e "$d/$1" ]]; then
       cd "$d/$1"
+      echo "In $d/$1"
       git status
       return
     fi
