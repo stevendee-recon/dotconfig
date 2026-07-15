@@ -54,7 +54,7 @@
             mtr
             neovim
             nixd
-            nixfmt-rfc-style
+            nixfmt
             nmap
             nodejs
             par
