@@ -63,7 +63,7 @@
             passage
             ripgrep
             stylua
-            texlive.combined.scheme-medium
+            (texliveMedium.withPackages (ps: with ps; [ enumitem relsize ]))
             tmux
             tree-sitter
             watchman
