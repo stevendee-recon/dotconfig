@@ -43,6 +43,9 @@ manpath+=(~/.nix-profile/share/man(N))
 manpath+=(~/.local/share/man(N))
 export MANPATH
 
+# What a world…
+export DO_NOT_TRACK=1
+
 [[ -x $(which nvim) ]] && EDITOR=nvim
 
 # Use a stable per-tmux-session auth sock. This gets refreshed with a
