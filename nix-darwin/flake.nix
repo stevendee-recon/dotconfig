@@ -51,6 +51,7 @@
             lua-language-server
             lua5_1
             luarocks
+            mosh
             mtr
             neovim
             nixd
